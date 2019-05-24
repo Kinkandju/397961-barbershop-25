@@ -4,13 +4,18 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог товаров барбершоп «Бородинский»</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="inner-page">
   <header class="main-header">
     <nav class="main-navigation">
+
       <!-- Логотип барбершопа «Бородинский» -->
       <a class="main-header-logo"><img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»"></a>
+
       <!-- Навигация по сайту -->
       <ul class="site-navigation">
         <li><a href="#">Информация</a></li>
@@ -19,6 +24,7 @@
         <li class="site-navigation-current"><a href="#">Магазин</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
+
       <!-- Пользовательская навигация -->
       <ul class="user-navigation">
         <li class="login-link">Вход</li>
@@ -28,6 +34,7 @@
 
   <main class="container">
     <h1 class="page-title">Средства для ухода</h1>
+
     <!-- Навигационная цепочка -->
     <ul class="breadcrumbs">
       <li><a href="index.html">Главная</a></li>
@@ -43,38 +50,38 @@
           <legend>Производители</legend>
           <ul>
             <li class="filter-option">
-              <label>
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Baxter of California" checked>
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Baxter of California" id="Baxter-of-California" checked>
+              <label for="Baxter-of-California">
                 Baxter of California
               </label>
             </li>
             <li class="filter-option">
-              <label>
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Mr Natty">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Mr Natty" id="Mr-Natty">
+              <label for="Mr-Natty">
                 Mr Natty
               </label>
             </li>
             <li class="filter-option">
-              <label>
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Suavecito" checked>
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Suavecito" id="Suavecito-item" checked>
+              <label for="Suavecito-item">
                 Suavecito
               </label>
             </li>
             <li class="filter-option">
-              <label>
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Malin+Goetz">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Malin+Goetz" id="Malin+Goetz-item">
+              <label for="Malin+Goetz-item">
                 Malin+Goetz
               </label>
             </li>
             <li class="filter-option">
-              <label>
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Murray's">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Murray's" id="Murray's-item">
+              <label for="Murray's-item">
                 Murray's
               </label>
             </li>
             <li class="filter-option">
-              <label>
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="American crew" checked>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="American crew" id="American-crew" checked>
+              <label for="American-crew">
                 American crew
               </label>
             </li>
