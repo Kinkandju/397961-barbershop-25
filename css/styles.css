@@ -10,7 +10,7 @@ body {
   text-transform: uppercase;
 
   background-color: #000000;
-  background-image: url("img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -19,6 +19,7 @@ a {
   text-decoration: none;
 }
 
+/* Стилизация кнопок */
 .button {
   font: inherit;
 
@@ -37,6 +38,7 @@ a {
   background-color: #663d15;
 }
 
+/* Основная навигация */
 .main-navigation {
   font-size: 16px;
   line-height: 20px;
@@ -45,6 +47,7 @@ a {
   background-color: #000000;
 }
 
+/* Навигация по сайту и пользовательская навигация */
 .site-navigation,
 .user-navigation {
   list-style: none;
@@ -62,6 +65,7 @@ a {
   background-color: #242424;
 }
 
+/* Стили раздела "Преимущества" */
 .features-list {
   list-style: none;
 }
@@ -75,11 +79,12 @@ a {
   line-height: 42px;
 }
 
+/* Стилевое оформление разделов "Новости" и "Фотогалерея" */
 .index-colums {
   color: #000000;
 
   background-color: #f8f5f2;
-  background-image: url("img/background-pattern.png");
+  background-image: url("../img/background-pattern.png");
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -101,6 +106,7 @@ a {
   border: 7px solid #ffffff;
 }
 
+/* Стилевое оформление формы записи */
 .appointment-item input {
   font: inherit;
 
@@ -112,15 +118,17 @@ a {
   border-color: #663d15;
 }
 
+/* Стилевое оформление подвала сайта */
 .main-footer {
   color: #ffffff;
 
   background-color: #212121;
-  background-image: url("img/background-pattern-footer.png");
+  background-image: url("../img/background-pattern-footer.png");
   background-position: 0 0;
   background-repeat: repeat;
 }
 
+/* Стилевое оформление контактов */
 .footer-contacts {
   font-style: normal;
   color: #ffffff;
@@ -137,6 +145,7 @@ a {
   text-decoration: none;
 }
 
+/* Стилевое оформление социальных сетей */
 .footer-social {
   text-align: center;
 }
@@ -149,6 +158,7 @@ a {
   color: #ffffff;
 }
 
+/* Стилевое оформление авторских прав */
 .footer-copiright {
   text-align: center;
 }
@@ -160,11 +170,12 @@ a {
   background-color: #ffffff;
 }
 
+/* Стилизация модального окна */
 .modal {
   color: #000000;
 
   background-color: #f8f3f0;
-  background-image: url("img/background-pattern.png");
+  background-image: url("../img/background-pattern.png");
   background-position: 0 0;
   background-repeat: repeat;
 }
