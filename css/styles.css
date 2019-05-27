@@ -15,6 +15,168 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Стилизация отдельных блоков сайта */
+body > * {
+  background-color: rgba(225, 0, 0, 0.3);
+}
+
+body > * > * {
+  background-color: rgba(225, 225, 0, 0.3);
+}
+
+body > * > * > * {
+  background-color: rgba(0, 0, 225, 0.3);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+/* Общая стилизация шапки сайта */
+.main-header {
+  min-height: 285px;
+  margin-bottom: 75px;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 285px;
+  background-color: transparent;
+}
+
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 60px;
+
+  min-height: 70px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header-logo {
+  order: 1;
+  width: 368px;
+  height: 153px;
+}
+
+.site-navigation {
+  width: 620px;
+  margin: 0;
+  padding: 0;
+
+  min-height: 70px;
+}
+
+.user-navigation {
+  width: 140px;
+  margin: 0;
+  padding: 0;
+
+  min-height: 70px;
+}
+
+/* Общая стилизация раздела "Преимущества" */
+.features {
+  margin-bottom: 80px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+
+  min-height: 170px;
+}
+
+.feature-item {
+  width: 300px;
+
+  min-height: 170px;
+}
+
+/* Общая стилизация разделов "Новости" и "Фотогалерея" */
+.index-colums {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  margin-bottom: 35px;
+
+  background-image: none;
+  background-color: transparent;
+}
+
+.news {
+  width: 380px;
+
+  min-height: 315px;
+}
+
+.gallery {
+  width: 300px;
+
+  min-height: 315px;
+}
+
+.contacts {
+  width: 380px;
+
+  min-height: 295px;
+}
+
+.appointment {
+  width: 300px;
+
+  min-height: 340px;
+}
+/* Общая стилизация подвала сайта */
+.main-footer {
+  padding: 60px 0;
+  margin-top: 65px;
+
+  background: none;
+  min-height: 180px;
+}
+
+.main-footer .container {
+  display: flex;
+}
+
+.footer-contacts {
+  width: 320px;
+  margin: 0;
+  margin-right: 80px;
+
+  min-height: 100px;
+}
+
+.footer-social {
+  width: 145px;
+
+  min-height: 100px;
+}
+
+.footer-copiright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
+
+  min-height: 100px;
+}
+
 /* Стилизация каталога товара */
 .inner-page {
   color: #000000;

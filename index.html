@@ -14,20 +14,26 @@
         <a class="main-header-logo">
           <img src="img/index-logo.svg" width="371" height="155" alt="Логотип барбершопа «Бородинский»"/>
         </a>
-        <!-- Навигация по сайту -->
-        <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="price.html">Прайс-лист</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <!-- Пользовательская навигация -->
-        <ul class="user-navigation">
-          <li>
-            <a class="login-link" href="login.html">Вход</a>
-          </li>
-        </ul>
+        <!-- div-оболочка для удобства стилизации -->
+        <div class="main-navigation-wrapper">
+          <!-- div-оболочка (центровщик) для удобства стилизации -->
+          <div class="container">
+            <!-- Навигация по сайту -->
+            <ul class="site-navigation">
+              <li><a href="info.html">Информация</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="price.html">Прайс-лист</a></li>
+              <li><a href="catalog.html">Магазин</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <!-- Пользовательская навигация -->
+            <ul class="user-navigation">
+              <li>
+                <a class="login-link" href="login.html">Вход</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -138,7 +144,8 @@
   </main>
 
   <footer class="main-footer">
-
+    <!-- div-оболочка (центровщик) для удобства стилизации -->
+    <div class="container">
       <!-- Контакты магазина -->
     <address class="footer-contacts">
         Барбершоп «Бородинский»<br>
@@ -162,6 +169,7 @@
         Разработано:
         <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
       </p>
+    </div>
   </footer>
 
   <!-- Форма модального окна (Авторизация) -->
