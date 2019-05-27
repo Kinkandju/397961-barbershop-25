@@ -278,6 +278,18 @@ body > * > * > * {
 .inner-page .main-footer {
   margin-top: 45px;
 }
+/* Общая стилизация страницы товара*/
+.product-photos {
+  width: 460px;
+
+  min-height: 677px;
+}
+
+.description-item {
+  width: 390px;
+
+  min-height: 667px;
+}
 
 /* Стилизация каталога товара */
 .inner-page {
