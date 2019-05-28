@@ -16,7 +16,7 @@ body {
 }
 
 /* Стилизация отдельных блоков сайта */
-body > * {
+/* body > * {
   background-color: rgba(225, 0, 0, 0.3);
 }
 
@@ -26,7 +26,7 @@ body > * > * {
 
 body > * > * > * {
   background-color: rgba(0, 0, 225, 0.3);
-}
+} */
 
 .visually-hidden {
   display: none;
